@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Soda fanta = new Soda("orange");
+        System.out.println(fanta.getAddon());
+        fanta.setAddon("lime");
+        System.out.println(fanta.getAddon());
     }
 }
